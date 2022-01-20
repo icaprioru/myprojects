@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline-block;
+  width: 60%;
+  margin-bottom: 5px;
+  margin-left: 10%;
+  color: rgb(74, 137, 199);
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+nav {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 50px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(74, 137, 199);
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-bottom: 1px;
+}
+
+.dropdown {
+  overflow: hidden; /* inca imi este neclar de ce daca nu scriu asta imi muta About cu un rand */
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(74, 137, 199);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  color: lightsalmon;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+hr {
+  border: 0.5px solid rgb(69, 71, 73);
+  margin-top: 2px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.rules__article {
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1.8;
+}
+
+.allArticles a {
+  display: block;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.footerSection {
+  display: inline-flex;
+  margin-left: 20%;
+}
+
+.allArticles h4 {
+  margin-left: 50px;
+  margin-bottom: 1px;
+}
+
+.copyright {
+  padding: 10px 0;
+  color: #32466b;
+  background: lightskyblue;
+  font-size: 14px;
+}
